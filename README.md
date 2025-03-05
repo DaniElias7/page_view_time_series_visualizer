@@ -9,8 +9,6 @@ This project generates three types of visualizations from page view data:
 2. **Bar Chart**: Monthly averages by year
 3. **Box Plots**: Annual distribution and monthly seasonality
 
-Original data: [freeCodeCamp](https://www.freecodecamp.org/)
-
 ## Requirements
 
 - Python 3.8+
@@ -20,28 +18,32 @@ Original data: [freeCodeCamp](https://www.freecodecamp.org/)
   matplotlib
   seaborn
   numpy
+  ```
 
 ## Installation
 
 1. Clone repository:
-    ```bash
-    git clone https://github.com/DaniElias7/page_view_time_series_visualizer
-    cd page_view_time_series_visualizer
+   ```bash
+   git clone https://github.com/DaniElias7/page_view_time_series_visualizer
+   cd page_view_time_series_visualizer
+   ```
 
 2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
  
 ## Usage
 
 Run main script:
-    ```bash
-    python src/main.py
-
+   ```bash
+   python src/main.py
+   ```
 **Generated Outputs**:
-    - outputs/line_plot.png
-    - outputs/bar_plot.png
-    - outputs/box_plot.png
+
+- outputs/line_plot.png
+- outputs/bar_plot.png
+- outputs/box_plot.png
 
 ## License
 MIT 
